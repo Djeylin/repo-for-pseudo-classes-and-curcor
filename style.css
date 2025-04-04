@@ -1,0 +1,59 @@
+a:link {
+    color: rgb(116, 255, 250);
+    text-decoration: none;
+}
+
+a:visited {
+    color: #ea2dff;
+    ;
+}
+
+a:hover {
+    color: rgb(213, 0, 0);
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(146, 74, 255);
+}
+
+
+.custom-button {
+    background-color: #00eaff;
+    color: rgb(255, 255, 255);
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+.custom-button:hover {
+    background-color: rgb(17, 195, 208);
+}
+
+.custom-button:active {
+    background-color: rgb(0, 114, 114);
+}
+
+
+.custom-button:focus {
+    outline: 3px solid rgb(244, 38, 255);
+}
+
+/* css text */
+
+.custom-text {
+    width: 250px;
+    padding: 10px;
+    border: 2px solid rgb(0, 34, 255);
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: text;
+}
+
+.custom-text:focus {
+    border-color: rgb(255, 0, 0);
+    outline: none;
+}
